@@ -1,7 +1,13 @@
 body {
-    color: #333333;
+    background-image: url(../img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+     
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 650px;
+    max-width: 1000px;
     margin: 0px auto;
     padding: 16px;
 
@@ -9,15 +15,22 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+image{
+    height: 550px;
+    width: 550px;
+    border: 3px solid red;
+
+}
 .main-content{
     flex-grow: 1;
 }
 header{
+    
     margin-top: 16px;
     margin-bottom: 48px;
 }
 footer{
-    color: #888888;
+    color:white;
     border-top: 1px slid #eeeeee;
     margin-top: 16px;
     padding: 16px 0px;
@@ -25,9 +38,13 @@ footer{
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    margin-right: 44px;
+    color: #eeeeee;
+    position: relative;
+    left: 100;
 }
 header a{
-    color: #888888;
+    color: white;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -43,3 +60,5 @@ button{
     background: #4682B4;
     border-radius: 12px;
 }
+
+
