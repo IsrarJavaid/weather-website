@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/pic1.jpg);
+    background-image: url(../img/pic8.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,11 +43,33 @@ h1{
     position: relative;
     left: 100;
 }
-header a{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006666;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
     color: white;
-    margin-right: 16px;
+    text-align: center;
+    padding: 20px 16px;
     text-decoration: none;
-}
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+
+    background-color: #003333;
+  }
+ 
 input{
     border: 3px solid #cccccc;
     padding: 8px;
